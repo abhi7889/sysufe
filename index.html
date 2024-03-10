@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:title"
+      content="SYSU: Journal in Public"
+    />
+    <meta name="og:description" 
+          content="Discover SYSU: Your own journal, the ultimate online journaling platform. Enjoy an open space to express your thoughts, track your progress, and connect with a supportive community. Start your journaling journey today!"
+     />
+
+    <meta
+     property="og:url"
+     content="https://sysu.social/"
+      />
+      
+    
+
+    <!-- Clarity Integration -->
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyB1awtKg03c_66QUAPoOffLI0LIKo37jlk",
+        authDomain: "assignment-b703b.firebaseapp.com",
+        databaseURL: "https://assignment-b703b-default-rtdb.firebaseio.com",
+        projectId: "assignment-b703b",
+        storageBucket: "assignment-b703b.appspot.com",
+        messagingSenderId: "721665686754",
+        appId: "1:721665686754:web:498d9fba916d7e86bff2bb",
+        measurementId: "G-XSMJ2YQ20E"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lancelot:wght@400&display=swap" rel="stylesheet">
+
+    <link href="./src/App.css" rel="stylesheet" />
+    <title>SYSU</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>
